@@ -1,0 +1,32 @@
+{
+    "name": "vue-print-demo",
+    "version": "1.0.0",
+    "description": "Vue3 打印功能demo，集成vue-plugin-hiprint和electron-hiprint",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "start": "vite"
+    },
+    "keywords": [
+        "vue3",
+        "hiprint",
+        "electron",
+        "print"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@element-plus/icons-vue": "^2.1.0",
+        "element-plus": "^2.3.9",
+        "jsbarcode": "^3.12.1",
+        "qrcode": "^1.5.4",
+        "vue": "^3.3.4",
+        "vue-plugin-hiprint": "^0.0.60"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^4.4.0",
+        "vite": "^4.4.9"
+    }
+}
